@@ -26,6 +26,6 @@ response.readableStreamBody.pipe(res);
 
 app.listen(PORT, () => {
 
-console.log('Azure storage service is up and listening to port SPORT)');
+console.log(`Azure storage service is up and listening to port ${PORT}`);
 
 });
